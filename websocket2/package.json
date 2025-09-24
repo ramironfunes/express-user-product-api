@@ -1,0 +1,21 @@
+{
+  "name": "preentregaproyfinal1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodemon src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "handlebars": "latest",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "latest",
+    "socket.io": "^4.7.2"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "874915",
+    "title": "Playstation 5",
+    "description": "Descripción del Producto",
+    "code": "12345",
+    "price": 2000,
+    "stock": 100,
+    "category": "Electrónicos"
+  },
+  {
+    "id": "406730",
+    "title": "Nombre del Producto",
+    "description": "Descripción del Producto",
+    "code": "12345",
+    "price": 10.99,
+    "stock": 100,
+    "category": "Electrónicos"
+  }
+]

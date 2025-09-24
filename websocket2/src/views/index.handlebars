@@ -1,0 +1,35 @@
+<div id="productList">
+    {{#each items}}
+        <ul id={{this.id}}>
+            <h2>ID:{{this.id}} Name: {{this.title}}</h2>
+            <img src="{{this.thumbnail}}" style="width:150px; border:1px solid black;" alt="Product Image">
+            <li>Description: {{this.description}}</li>
+            <li>Code: {{this.code}}</li>
+            <li>Price: {{this.price}} Bells</li>
+            <li>category:{{this.category}}</li>
+        </ul>
+        <br>
+    {{/each}}
+</div>
+
+<form id="selectProduct">
+    <h3>Delete an item</h3>
+    ID: <input type="number" id="iD" placeholder="ID of Item"> *ID only for Delete<br>
+    <button type="button" id="delete_Button" class="swal-button swal-button--confirm">DELETE</button>
+</form>
+
+<h1>------------Product list ------------</h1>
+
+<form id="addProductForm">
+    <h3>Add an item</h3>
+    NAME: <input type="text" id="title" placeholder="Name of item"><br>
+    DESC: <input type="text" id="description" placeholder="Description of item"><br>
+    CODE: <input type="text" id="code" placeholder="codename of item"><br>
+    PRICE:<input type="number" id="price" placeholder="Price in Bells"><br>
+    QUANT: <input type="number" id="stock" placeholder="Quantity"><br>
+    CAT:  <input type="text" id="category" placeholder="Category"><br>
+    IMG: <input type="URL" id="IMG" placeholder="OPTIONAL Url Img"><br>
+    <button type="submit" id="add_Button" class="swal-button swal-button--confirm">ADD item</button>
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11
